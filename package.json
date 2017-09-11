@@ -1,0 +1,27 @@
+{
+  "name": "tauri",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "lodash": "^4.17.4",
+    "rc": "1.0.1",
+    "sails": "~0.12.13",
+    "sails-disk": "~0.10.9",
+    "sails-hook-validation": "^0.4.6",
+    "sails-mongo": "^0.12.2"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rodeliocruz/tauri.git"
+  },
+  "author": "rodeliocruz",
+  "license": ""
+}
